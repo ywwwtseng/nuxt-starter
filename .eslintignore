@@ -1,0 +1,5 @@
+/.nuxt/
+/.vscode/
+/build/
+/config/
+/dist/

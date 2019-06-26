@@ -1,0 +1,52 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/recommended",
+    "airbnb-base"
+  ],
+  "rules": {
+    "vue/max-attributes-per-line": [
+      "error",
+      {
+        "singleline": 3,
+        "multiline": {
+          "max": 1,
+          "allowFirstLine": false
+        }
+      }
+    ],
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": ["~/"]
+      }
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "comma-dangle": [
+      "error",
+      "only-multiline"
+    ],
+    "import/extensions": "off",
+    "no-shadow": "off",
+    "linebreak-style": "off"
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  }
+}
