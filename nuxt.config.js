@@ -31,15 +31,16 @@ module.exports = {
   css: [
   ],
   /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-  ],
-  /*
   ** Nuxt.js modules
   */
   modules: [
     '@nuxtjs/axios',
+  ],
+  /*
+  ** Plugins to load before mounting the App
+  */
+  plugins: [
+    '~/plugins/axios',
   ],
 
   axios: {
